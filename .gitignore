@@ -1,0 +1,10 @@
+#过滤install/ log/ build/目录
+install/
+log/
+build/
+#过滤图片
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
