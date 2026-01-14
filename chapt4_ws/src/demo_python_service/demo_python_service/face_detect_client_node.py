@@ -74,7 +74,7 @@ class FaceDetectClientNode(Node):
         def result_callback(result_future):
             response=result_future.result()
             self.get_logger().info(f"接受响应，共检测到人脸{response.number}个，耗时为{response.user_time}秒")
-            #self.show_response(response)
+            self.show_response(response)
         future.add_done_callback(result_callback)
     def show_response(self,response):
         for i in range(response.number):

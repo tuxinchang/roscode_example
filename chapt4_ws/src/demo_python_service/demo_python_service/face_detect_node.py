@@ -28,7 +28,7 @@ class FaceDetectNode(Node):
         self.declare_parameter('model','hog')
         self.number_of_times_to_upsample=self.get_parameter('number_of_times_to_upsample').value
         self.model=self.get_parameter('model').value
-        #self.number_of_times_to_upsample=1
+        #self.number_of_times_to_upsample=1    
         #self.model='hog'
         self.default_image_path=os.path.join(get_package_share_directory
         ('demo_python_service'),'resource/two_animal.jpg')
