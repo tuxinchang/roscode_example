@@ -8,3 +8,6 @@ build/
 *.jpeg
 *.gif
 *.bmp
+
+#上传指定图片
+!/home/tuxinchang/chapt/chapt1_ws/src/python_face_service/resource/three_country.jpg
